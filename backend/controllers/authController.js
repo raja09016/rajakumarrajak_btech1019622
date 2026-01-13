@@ -21,7 +21,7 @@ const register = async (req, res) => {
       res.status(400);
       throw new Error('Please provide all required fields');
     }
-
+// console("aya");
     if (password.length < 6) {
       res.status(400);
       throw new Error('Password must be at least 6 characters');
